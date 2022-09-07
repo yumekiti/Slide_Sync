@@ -1,0 +1,23 @@
+{
+  "name": "remote_for_slides",
+  "version": "1.0.0",
+  "description": "## how to use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumekiti/remote_for_slides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yumekiti/remote_for_slides/issues"
+  },
+  "homepage": "https://github.com/yumekiti/remote_for_slides#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
