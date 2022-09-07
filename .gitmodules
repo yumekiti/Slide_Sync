@@ -1,0 +1,6 @@
+[submodule "remote_for_slides_extension"]
+	path = remote_for_slides_extension
+	url = git@github.com:yumekiti/remote_for_slides_extension.git
+[submodule "remote_for_slides_web"]
+	path = remote_for_slides_web
+	url = git@github.com:RuiOkazaki/remote_for_slides_web.git

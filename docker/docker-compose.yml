@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  node:
+    image: node:17-alpine
+    container_name: "remote_for_slides"
+    working_dir: /app
+    volumes:
+      - ../remote_for_slides_web:/app
+    ports:
+      - "3333:3333"
+    command: >
+      sh -c "
+        yarn
+        yarn dev
+      "
