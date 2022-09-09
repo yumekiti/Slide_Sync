@@ -5,3 +5,11 @@
 ```sh
 git clone --recursive https://github.com/yumekiti/remote_for_slides.git
 ```
+
+## diagram
+
+```sh
+sudo apt install graphviz python3 python3-pip
+
+pip3 install diagrams
+```
