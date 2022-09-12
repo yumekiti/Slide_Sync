@@ -20,6 +20,8 @@ max = max(data)
 # dataの最低
 min = min(data)
 
-print("平均: ", mean)
-print("最高: ", max)
-print("最低: ", min)
+print("\
+mean: \t%f ms \t(%f s)\n\
+max: \t%f ms \t(%f s)\n\
+min: \t%f ms \t(%f s)\
+" % (mean, mean / 1000, max, max / 1000, min, min / 1000))
