@@ -6,8 +6,8 @@ from diagrams.programming.language import Nodejs
 
 graph_attr = {
   "fontsize": "45",
-  # "bgcolor": "white",
-  "bgcolor": "transparent",
+  "bgcolor": "white",
+  # "bgcolor": "transparent",
   "pad": "0.5",
 }
 
