@@ -3,7 +3,7 @@
 ## how to use
 
 ```sh
-git clone --recursive https://github.com/yumekiti/remote_for_slides.git
+git clone --recursive https://github.com/yumekiti/slide_sync.git
 ```
 
 ## diagram
